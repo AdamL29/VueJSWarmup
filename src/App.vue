@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FunComponent/>
+    <!-- <Secrets/> NOT NEEDED-->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FunComponent from '@/components/FunComponent.vue';
+// import Secrets from '@/components/Secrets.vue'; NOT NEEDED
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FunComponent,
+    // Secrets, NOT NEEDED
   }
 }
 </script>
